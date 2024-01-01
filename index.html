@@ -13,16 +13,18 @@
     <div class="webPage">
     <h1 class='title'>Rock Paper Scissors</h1>
     <div class="icon">
-    <button id="rock"class="emoji" onclick="playGame('👊')" ><img src="./rock.webp" id="rock-image"></button>
-    <button id="paper"class="emoji" onclick="playGame('🤚')"><img src="./Paper.webp" id="paper-image"></button>
-    <button id="scissors" class="emoji"onclick="playGame('✌️')"><img src="./scissor.webp" id="scissor-image"></button>
+    <div> <button id="rock"class="emoji" onclick="playGame('👊');" ><img src="./image/rock.webp" id="rock-image"></button></div>
+    <div><button  id="paper"class="emoji" onclick="playGame('🤚')"><img src="./image/Paper.webp" id="paper-image"></button></div>
+    <div> <button id="scissors" class="emoji"onclick="playGame('✌️')"><img src="./image/scissor.webp" id="scissor-image"></button></div>
     </div>
+    <div class="resultAll">
     <p class="js-button"></p>
     <p class="result"></p>
     <p class="score1"></p>
+    <button type="button" class='reset' onclick="reset()">Reset Score</button>
+    </div>
+    </div>
     <script src="Rock-Paper-Scissors.js">    
     </script>
-    <button class='reset' onclick="reset()">Reset Score</button>
-    </div>
 </body>
 </html>
